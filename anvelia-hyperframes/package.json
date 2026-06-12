@@ -1,0 +1,12 @@
+{
+  "name": "anvelia-hyperframes",
+  "private": true,
+  "version": "0.1.0",
+  "description": "HyperFrames composition for the Anvelia opening scroll show.",
+  "scripts": {
+    "lint": "npx hyperframes lint",
+    "inspect": "npx hyperframes inspect --samples 15 --at 0,2.2,4.8,6.8,7.8,10",
+    "preview": "npx hyperframes preview --port 3017",
+    "render": "npx hyperframes render --output renders/anvelia-opening-show.mp4 --quality standard"
+  }
+}
